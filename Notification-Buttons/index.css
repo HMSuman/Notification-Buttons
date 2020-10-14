@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notification:hover {
+    background: blue;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    border-bottom: 2px dashed green;
+}
+
+.container {
+    text-align: center;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+}
+
+.main {
+    margin-bottom: 30px;
+}
